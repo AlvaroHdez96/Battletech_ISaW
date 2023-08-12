@@ -8,8 +8,8 @@ import java.util.Scanner;
 public class JSONGenerator {
   public static void main(String[] args) {
     try {
-      Scanner scanner = new Scanner(new File("C:\\Users\\corre\\\\git\\Battletech_ISaW\\.git\\SolarSystems\\SolarSystems.txt"));
-      PrintWriter writer = new PrintWriter(new File("C:\\Users\\corre\\git\\Battletech_ISaW\\.git\\SolarSystems\\SolarSystems.json"));
+      Scanner scanner = new Scanner(new File("C:\\Users\\corre\\git\\Battletech_ISaW\\SolarSystems\\SolarSystems.txt"));
+      PrintWriter writer = new PrintWriter(new File("C:\\Users\\corre\\git\\Battletech_ISaW\\SolarSystems\\SolarSystems.json"));
 
       while (scanner.hasNextLine()) {
         String line = scanner.nextLine();

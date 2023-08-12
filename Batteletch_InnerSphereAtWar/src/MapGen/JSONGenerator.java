@@ -8,12 +8,12 @@ import java.util.Scanner;
 public class JSONGenerator {
   public static void main(String[] args) {
     try {
-      Scanner scanner = new Scanner(new File("input.txt"));
-      PrintWriter writer = new PrintWriter(new File("output.json"));
+      Scanner scanner = new Scanner(new File("C:\\Users\\corre\\\\git\\Battletech_ISaW\\.git\\SolarSystems\\SolarSystems.txt"));
+      PrintWriter writer = new PrintWriter(new File("C:\\Users\\corre\\git\\Battletech_ISaW\\.git\\SolarSystems\\SolarSystems.json"));
 
       while (scanner.hasNextLine()) {
         String line = scanner.nextLine();
-        String[] values = line.split("\\|");
+        String[] values = line.split("\\,");
 
         int id = Integer.parseInt(values[0]);
         String name = values[1];
